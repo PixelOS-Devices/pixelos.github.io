@@ -260,8 +260,8 @@ input[type="range"]:focus {
 }
 
 @media only screen and (max-width: 550px) {
-    section {
-        flex-direction: column;
+    .one {
+        display: block;
     }
     img.mockup {
         position: relative;
@@ -272,15 +272,9 @@ input[type="range"]:focus {
         font-size: 7vw;
         position: relative;
         top: 6rem;
-        right: 0;
-    }
-    span.text1 {
-        padding-right: 7rem;
+        left: 32%;
         font-weight: 700;
-    }
-    span.text2 {
-        padding-left: 7rem;
-        font-weight: 700;
+        
     }
     @keyframes slide-left {
         to {
