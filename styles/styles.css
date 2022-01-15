@@ -94,6 +94,9 @@ span.text1, span.text2 {
 
 .two {
     background-color: #a79fd5;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 div.wrapper {
@@ -130,12 +133,86 @@ div.screenshots {
     margin-top: 10px;
 }
 
-div.screenshots img {
-    min-width: 15%;
-    margin-right: .5rem;
-    border-radius: 1.1rem;
+.bems-scroller {
+    display: flex;
+    height: fit-content;
+    border-radius: 1em;
+    overflow: hidden;
 }
 
+.bems-scroller #scrolling-container {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 1em 0;
+    overflow-x: scroll;
+    overflow-x: -moz-scrollbars-none;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    width: 75%;
+    margin: auto;
+    background-color: #9790c2;
+    margin-top: 10px;
+    border-radius: .5em;
+}
+
+.bems-scroller #scrolling-container::-webkit-scrollbar {
+    display: none;
+}
+
+.bems-scroller li {
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: column;
+    list-style-type: none;
+    width: 15%;
+    margin: 0 1em;
+    background-color: #666;
+    border-radius: 0.5em;
+}
+
+.bems-scroller li img {
+    border-radius: 1.2em;
+}
+
+.bems-scroller i {
+    color: #ddd;
+}
+
+.rangeslider {
+    margin: 0 auto;
+    padding: 200px 0;
+    width: 500px;
+}
+
+input[type="range"] {
+    background: #1e1e1e;
+    border-bottom: 1px solid #4b4b4b;
+    border-top: 1px solid #060606;
+    height: 12px;
+    width: 75%;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    border-radius: 3px;
+}
+
+input[type="range"]:focus {
+    outline: none;
+}
+
+.rangeslider, input::-webkit-slider-thumb {
+    background: linear-gradient(to bottom, #505050 0%, #545454 5%, #525252 16%, #3d3d3d 95%, #3a3a3a 100%);
+    border: 1px solid #1a1a1a;
+    cursor: pointer;
+    height: 22px;
+    text-indent: -9999px;
+    width: 90px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.3), 0 1px 0 rgba(255,255,255,0.2) inset;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    border-radius: 10px;
+}
+  
 .three {
     background-color: rgb(103, 114, 126);
 }
