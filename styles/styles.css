@@ -54,7 +54,7 @@ section {
 }
 
 .container {
-    scroll-snap-type: y mandatory;
+    scroll-snap-type: y proximity;
     overflow-y: scroll;
     height: 100vh;
 }
@@ -157,7 +157,6 @@ div.about {
     list-style-type: none;
     width: 15%;
     margin: 0 1em;
-    background-color: #666;
     border-radius: 0.5em;
 }
 
