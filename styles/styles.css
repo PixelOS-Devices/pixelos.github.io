@@ -79,7 +79,7 @@ span.text1, span.text2 {
     font-size: 6vw;
     color: #e5196f;
     animation: 2s slide-left 2s forwards;
-    transform:translateX(178%);
+    transform:translateX(189%);
 }
 
 .move-left {
