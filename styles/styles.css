@@ -266,13 +266,13 @@ input[type="range"]:focus {
     }
     img.mockup {
         position: relative;
-        top: 100px;
+        top: 115px;
         width: 100%;
     }
     span.text1, span.text2 {
         font-size: 7vw;
         position: relative;
-        top: 6rem;
+        top: 7rem;
         left: 32%;
         font-weight: 700;
     }
