@@ -93,7 +93,47 @@ span.text1, span.text2 {
 }
 
 .two {
-    background-color: rgb(9, 127, 230);
+    background-color: #a79fd5;
+}
+
+div.wrapper {
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    top: 3%;
+    align-items: center;
+    justify-content: center;
+}
+
+h2.header {
+    padding-bottom: 2%;
+}
+
+div.about {
+    position: relative;
+    background-color: #9790c2;
+    max-width: 75%;
+    margin: auto;
+    border-radius: .5rem;
+    padding: 1rem;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+}
+
+div.screenshots {
+    margin: auto;
+    display: flex;
+    background-color: #9790c2;
+    width: 75%;
+    padding: 1rem;
+    border-radius: .5rem;
+    margin-top: 10px;
+}
+
+div.screenshots img {
+    min-width: 15%;
+    margin-right: .5rem;
+    border-radius: 1.1rem;
 }
 
 .three {
@@ -111,7 +151,6 @@ span.text1, span.text2 {
     img.mockup {
         width: 30%;
     }
-    
 }
 
 @media only screen and (max-width: 1000px) {
@@ -141,7 +180,6 @@ span.text1, span.text2 {
           transform:translateX(-10%);
         }
     }
-    
 }
 
 @media only screen and (max-width: 550px) {
@@ -172,6 +210,4 @@ span.text1, span.text2 {
           transform:translateX(4%);
         }
     }
-
-    
 }
