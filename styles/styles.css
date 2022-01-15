@@ -252,7 +252,7 @@ input[type="range"]:focus {
         width: 35%;
     }
     input[type="range"] {
-        height: 15px;
+        display: none;
     }
     @keyframes slide-left {
         to {
@@ -278,7 +278,10 @@ input[type="range"]:focus {
         font-weight: 700;
     }
     input[type="range"] {
-        height: 15px;
+        display: none;
+    }
+    .bems-scroller li {
+        min-width: 50%;
     }
     @keyframes slide-left {
         to {
